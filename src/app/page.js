@@ -19,7 +19,7 @@ export default function Home() {
 
         <hr />
 
-        <div className="text-center mt-5 border border-red-400 rounded-xl  mx-auto">  
+        <div className="text-center mt-5 border border-red-400 rounded-xl mx-auto">  
               <div className="mt-[150px]"> 
               <h1 className="mb-2">Enter Gram :-</h1>
         <input required placeholder="Enter Value" className="border border-blue-500 rounded-md text-center" type="text" name="value" id="value" />
