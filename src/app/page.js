@@ -25,7 +25,7 @@ export default function Home() {
         <input required placeholder="Enter Value" className="border border-blue-500 rounded-md text-center" type="text" name="value" id="value" />
         <br />
         <button onClick={resultFunction} className="bg-blue-600 m-2 p-2 rounded-md text-white">Convert</button>  
-        <h2 className="mt-3" id="result">Your Value in Ana is </h2>
+        <h2 className="mt-3" >Your Value in Ana is <span className="text-2xl text-blue-500" id="result"></span></h2>
         <h1></h1>
               </div>
         </div>
